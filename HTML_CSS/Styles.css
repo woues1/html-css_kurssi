@@ -12,7 +12,7 @@ body {
 
 
 header {
-    background: #333;
+    background: #ffffff;
     color: #fff;
     padding: 10px 20px;
     display: flex;
@@ -20,21 +20,33 @@ header {
     align-items: center;
 }
 
+
 .logo {
     font-size: 24px;
+    width: 192px;
+    display: inline-block;
 }
+
+
+.logo img{
+    width: 50%;
+    height: 50%;
+}
+
 
 nav ul {
     list-style: none;
     display: flex;
 }
 
+
 nav ul li {
     margin-left: 20px;
 }
 
+
 nav ul li a {
-    color: #fff;
+    color: black;
     text-decoration: none;
 }
 
@@ -45,17 +57,24 @@ nav ul li a {
     text-align: center;
 }
 
+
 .hero h1 {
     margin-bottom: 20px;
 }
 
-.hero-image {
+
+.main_img {
+    width: 100%;
+    height: 100%;
     background: #aaa;
-    height: 200px;
     line-height: 200px;
     color: #fff;
     font-size: 2em;
     margin-bottom: 20px;
+}
+.Main_img img{
+    width: 512px;
+    height: 512px;
 }
 
 
@@ -65,12 +84,14 @@ nav ul li a {
     padding: 20px;
 }
 
+
 .product {
     background: #eee;
     padding: 20px;
     width: 30%; / Adjust the width as needed /
     text-align: center;
 }
+
 
 .product-image {
     background: #ccc;
@@ -87,6 +108,7 @@ nav ul li a {
     padding: 20px;
     text-align: center;
 }
+
 
 .map {
     background: #aaa;
@@ -110,6 +132,7 @@ footer {
     .products {
         flex-direction: column;
     }
+
 
     .product {
         width: 100%;
