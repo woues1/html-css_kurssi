@@ -6,7 +6,7 @@ body, h1, h2, p, ul {
 
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: "Roboto Light", sans-serif;
     line-height: 1.6;
 }
 
@@ -72,6 +72,8 @@ nav ul li a {
     font-size: 2em;
     margin-bottom: 2rem;
 }
+
+
 .main-image img{
     width: 512px;
     height: 512px;
