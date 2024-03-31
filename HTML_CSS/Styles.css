@@ -5,11 +5,11 @@ body, h1, h2, p, ul {
 }
 
 @font-face {
-    font-family: "Tac+One";
-    src: url('https://fonts.googleapis.com/css2?family=Tac+One&display=swap');
+    font-family: "Roboto";
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 }
 body {
-    font-family: "Tac+One";
+    font-family: "Roboto";
     line-height: 1.6;
 }
 
