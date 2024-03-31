@@ -64,16 +64,15 @@ nav ul li a {
 }
 
 
-.main-img {
+.main-image {
     width: 100%;
     height: 100%;
-    background: #aaa;
     line-height: 200px;
     color: #fff;
     font-size: 2em;
     margin-bottom: 20px;
 }
-.Main-img img{
+.main-image img{
     width: 512px;
     height: 512px;
 }
