@@ -5,11 +5,11 @@ body, h1, h2, p, ul {
 }
 
 @font-face {
-    font-family: Tac+one;
+    font-family: "Tac+One";
     src: url('https://fonts.googleapis.com/css2?family=Tac+One&display=swap');
 }
 body {
-    font-family: Tac+one, sans-serif;
+    font-family: "Tac+One";
     line-height: 1.6;
 }
 
@@ -55,11 +55,17 @@ nav ul li a {
 }
 
 
+.background {
+    background-image: url("line-background-wave-gradient-template-design_483537-5081.avif");
+    background-size: cover;
+}
+
+
 .main-section {
-    background: #ddd;
     padding: 2rem;
     text-align: center;
 }
+
 
 
 .main-section h1 {
@@ -83,15 +89,14 @@ nav ul li a {
 }
 
 
+
 .products {
     display: flex;
     justify-content: space-between;
-
 }
 
 
 .product {
-    background: #eee;
     padding: 2rem;
     width: 33%;
     text-align: center;
@@ -99,7 +104,6 @@ nav ul li a {
 
 
 .product-image {
-    background: #ccc;
     aspect-ratio: auto;
     line-height: 200px;
     color: #fff;
@@ -112,13 +116,10 @@ nav ul li a {
 .product-image img{
     width: 100%;
     height: auto;
-    background-image: url("pexels-pixabay-48148.jpg");
-    background-size: 100% 100%;
 }
 
 
 .contact {
-    background: #ddd;
     padding: 2rem;
     text-align: center;
 }
