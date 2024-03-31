@@ -64,7 +64,7 @@ nav ul li a {
 }
 
 
-.main_img {
+.main-img {
     width: 100%;
     height: 100%;
     background: #aaa;
@@ -73,7 +73,7 @@ nav ul li a {
     font-size: 2em;
     margin-bottom: 20px;
 }
-.Main_img img{
+.Main-img img{
     width: 512px;
     height: 512px;
 }
